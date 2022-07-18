@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page "
+        android:textSize="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="EnterEmail"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="@color/black"
+        android:hint="Enter Password"
+        android:inputType="numberPassword"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Signup "
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password "
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+</LinearLayout>
